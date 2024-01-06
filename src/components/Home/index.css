@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #131313;
+}
+
+.home-main-container1 {
+  min-height: 50vh;
+  min-width: 80vw;
+  border-radius: 8px;
+  background: #0d0d0d;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.failure-image-home {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.home-bg-image {
+  background-image: url('https://res.cloudinary.com/dchxbofyt/image/upload/v1698765839/Image_1_z7lvfo.png');
+  width: 100%;
+  min-height: 40vh;
+  flex-shrink: 0;
+  background-size: 100% 100%;
+}
+
+.movie-name-heading {
+  color: #ffffff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Roboto';
+  font-size: 64px;
+  font-style: normal;
+  padding-left: 64px;
+  padding-top: 50px;
+  font-weight: 600;
+  line-height: 62px; /* 96.875% */
+}
+
+.super-man-description {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 64px;
+  padding-top: 15px;
+}
+
+.play-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 64px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  height: 40px;
+  outline: none;
+  border: 0px;
+  cursor: pointer;
+  padding: 8px 24px;
+  gap: 8px;
+  border-radius: 4px;
+  color: #171f46;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 576px) {
+  .home-bg-image {
+    height: 55vh;
+  }
+  .movie-name-heading {
+    padding-top: 160px;
+    padding-left: 32px;
+    font-size: 36px;
+    padding-bottom: 8px;
+  }
+  .super-man-description {
+    padding-left: 32px;
+    padding-top: 8px;
+    margin-top: 0px;
+    font-size: 16px;
+  }
+  .play-button {
+    margin-left: 32px;
+  }
+}

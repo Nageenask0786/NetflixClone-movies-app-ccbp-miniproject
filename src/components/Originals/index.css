@@ -1,0 +1,23 @@
+.container2 {
+  min-height: 30vh;
+  min-width: 80vw;
+  border-radius: 8px;
+  background: #0d0d0d;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 576px) {
+  .container2 {
+    height: 120px;
+  }
+}

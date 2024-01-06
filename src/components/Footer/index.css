@@ -1,0 +1,32 @@
+.footer-container {
+  background-color: #181818;
+  height: 200px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.icons-container {
+  display: flex;
+}
+.contact-us {
+  color: #fff;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    height: 148px;
+  }
+}

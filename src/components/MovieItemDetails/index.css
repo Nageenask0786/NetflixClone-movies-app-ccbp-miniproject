@@ -1,0 +1,299 @@
+.movie-item-details-route {
+  background: #181818;
+  min-height: 100vh;
+  height: 100vh;
+}
+
+.movie-details-success-view {
+  background: #181818;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.poster {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.poster-details {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  margin-left: 90px;
+  margin-top: 70px;
+}
+
+.movie-details-movie-name {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 0px;
+  margin: 0;
+  opacity: 5;
+  background-position: center;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.release-date-container {
+  display: flex;
+}
+
+.runtime {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 8px;
+  padding-top: 6px;
+}
+.movie-info-a-ua {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 8px;
+  padding: 2px;
+  border: 1px solid #fff;
+  padding-top: 7px;
+}
+
+.year {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 8px;
+  padding-top: 10px;
+}
+
+.movie-details-overview {
+  color: var(--General-White, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  padding-top: 10px;
+}
+.play-button-movie-details {
+  height: 40px;
+  width: 80px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #171f46;
+  border: 0px;
+  outline: none;
+  border-radius: 3px;
+}
+
+.movie-details-main-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+}
+
+.genres-container {
+  display: flex;
+  flex-direction: column;
+}
+.languages-container {
+  display: flex;
+  flex-direction: column;
+}
+.rating-details {
+  display: flex;
+  flex-direction: column;
+}
+.budget-and-release-date {
+  display: flex;
+  flex-direction: column;
+}
+
+.genre-heading {
+  color: var(--Light-blue-gray-400, #94a3b8);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  padding-top: 6px;
+}
+
+.languages-heading {
+  color: var(--Light-blue-gray-400, #94a3b8);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  padding-top: 6px;
+}
+
+.rating-count {
+  color: var(--Light-blue-gray-400, #94a3b8);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 144.444% */
+  padding-top: 6px;
+}
+
+.rating-average {
+  color: var(--Light-blue-gray-400, #94a3b8);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 144.444% */
+  padding-top: 6px;
+}
+.budget {
+  color: var(--Light-blue-gray-400, #94a3b8);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  padding-top: 6px;
+}
+.release-date {
+  color: var(--Light-blue-gray-400, #94a3b8);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 144.444% */
+  padding-top: 6px;
+}
+
+.para {
+  color: var(--General-White, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 8px;
+  padding-left: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.more-like-this {
+  color: var(--General-White, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 10%;
+  padding-bottom: 20px;
+}
+
+.similar-movies {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* width: 100%; */
+}
+.similar-movies ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.similar-poster-image {
+  width: 255px;
+  height: 170px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .movie-name {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .poster {
+    min-height: 50vh;
+    width: 100%;
+  }
+  .poster-details {
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+  .movie-details-movie-name {
+    font-size: 36px;
+  }
+  .poster-details {
+    width: 80%;
+  }
+  .runtime,
+  .movie-info-a-ua,
+  .year,
+  .movie-details-overview {
+    font-size: 16px;
+  }
+  .release-date-container {
+    margin-top: 5px;
+  }
+
+  .genre-heading,
+  .languages-heading,
+  .rating-count,
+  .rating-average,
+  .budget,
+  .release-date {
+    font-size: 14px;
+  }
+  .para {
+    font-size: 14px;
+  }
+  .similar-poster-image {
+    width: 90px;
+    height: 64px;
+  }
+}

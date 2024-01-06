@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+}
+
+.login-form-container {
+  background-image: url('https://res.cloudinary.com/dchxbofyt/image/upload/v1698743868/netfilx_1_1_mg4y33.png');
+  min-height: 100vh;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  @media screen and (max-width: 576px) {
+    background: #131313;
+  }
+}
+
+.movies-image {
+  width: 180px;
+  height: 52.001px;
+  position: fixed;
+  flex-shrink: 0;
+  margin-top: 40px;
+  margin-left: 160px;
+  position: fixed top;
+
+  @media screen and (max-width: 576px) {
+    width: 100px;
+    height: 27px;
+    flex-shrink: 0;
+    margin-top: 32px;
+    margin-left: 32px;
+  }
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  height: 440px;
+  opacity: 0.8;
+  background: #0c0b10;
+  margin: auto;
+  background-size: cover;
+  @media screen and (max-width: 576px) {
+    flex-direction: column;
+    background: transparent;
+  }
+}
+
+.login-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 125% */
+  margin-top: 62px;
+  @media screen and (max-width: 576px) {
+    font-weight: 500;
+    text-align: left;
+    margin-left: 48px;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-text {
+  color: #fff;
+  font-family: HK Grotesk;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+  margin: 10px 48px;
+  font-family: 'Roboto';
+}
+
+.input-field {
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  font-family: 'Roboto';
+  border: 0px;
+  background-color: #333333;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  margin-left: 48px;
+  color: #ffffff;
+  margin-right: 48px;
+  @media screen and (max-width: 576px) {
+    width: 296px;
+  }
+}
+
+.input-field:focus {
+  color: #ffffff;
+}
+
+.login-button {
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-left: 48px;
+  margin-right: 48px;
+  border-radius: 8px;
+  background: #e50914;
+  outline: none;
+  border: 0px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-top: 48px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  @media screen and (max-width: 576px) {
+    width: 296px;
+  }
+}
+
+.error-msg {
+  color: var(--light-red-600, #dc2626);
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 48px;
+  padding-top: 8px;
+}
