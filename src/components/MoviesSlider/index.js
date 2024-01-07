@@ -9,7 +9,7 @@ class MoviesSlider extends Component {
     const {movies} = this.props
     const settings = {
       slidesToShow: 4,
-      infinite: true,
+      infinite: false,
       autoplay: false,
       dots: false,
       slidesToScroll: 4,

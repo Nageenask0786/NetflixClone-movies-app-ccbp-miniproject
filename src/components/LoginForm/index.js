@@ -30,8 +30,8 @@ class LoginForm extends Component {
   onSubmitForm = async event => {
     event.preventDefault()
     const {userName, Password} = this.state
-    Cookies.set('username', userName)
-    Cookies.set('password', Password)
+    Cookies.set('username', userName, {expires: 30})
+    Cookies.set('password', Password, {expires: 30})
     const userDetails = {username: userName, password: Password}
     const apiUrl = 'https://apis.ccbp.in/login'
     const options = {method: 'POST', body: JSON.stringify(userDetails)}
@@ -55,7 +55,7 @@ class LoginForm extends Component {
         <img
           src="https://res.cloudinary.com/dchxbofyt/image/upload/v1698742911/Group_7399_wybri8.png"
           className="movies-image"
-          alt="website logo"
+          alt="login website logo"
         />
         <div className="form-card">
           <h1 className="login-heading">Login</h1>

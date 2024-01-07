@@ -19,7 +19,11 @@ class Account extends Component {
     const userName = Cookies.get('username')
     const password = Cookies.get('password')
     console.log(password)
-    const maskedPassword = '*'.repeat(9)
+    let Length
+    if (password !== undefined) {
+      Length = password.length
+    }
+    const maskedPassword = '*'.repeat(Length)
     return (
       <div className="account-route">
         <Header />
