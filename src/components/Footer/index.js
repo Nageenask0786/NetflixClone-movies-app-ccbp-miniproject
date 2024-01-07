@@ -5,12 +5,20 @@ import './index.css'
 const Footer = () => (
   <div className="footer-container">
     <div className="container">
-      <div className="icons-container">
-        <FaGoogle size={20} color="#ffffff" style={{margin: '6px'}} />
-        <FaTwitter size={20} color="#ffffff" style={{margin: '6px'}} />
-        <FaInstagram size={20} color="#ffffff" style={{margin: '6px'}} />
-        <FaYoutube size={20} color="#ffffff" style={{margin: '6px'}} />
-      </div>
+      <ul className="icons-container">
+        <li type="button" className="icon-button">
+          <FaGoogle />
+        </li>
+        <li type="button" className="icon-button">
+          <FaTwitter />
+        </li>
+        <li type="button" className="icon-button">
+          <FaInstagram />
+        </li>
+        <li type="button" className="icon-button">
+          <FaYoutube />
+        </li>
+      </ul>
       <p className="contact-us">Contact us</p>
     </div>
   </div>

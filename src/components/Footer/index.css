@@ -12,7 +12,21 @@
   display: flex;
   flex-direction: column;
 }
+
+.icon-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: transparent;
+  margin: 5px;
+  padding: 5px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 .icons-container {
+  list-style-type: none;
   display: flex;
 }
 .contact-us {

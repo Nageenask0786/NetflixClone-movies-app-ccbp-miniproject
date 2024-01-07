@@ -21,10 +21,6 @@ const apiStatusConstants = {
 class Search extends Component {
   state = {movies: [], searchText: '', apiStatus: apiStatusConstants.initial}
 
-  componentDidMount() {
-    this.getSearchResults()
-  }
-
   getSearchResults = async () => {
     this.setState({apiStatus: apiStatusConstants.inProgress})
     const jwtToken = Cookies.get('jwt_token')
