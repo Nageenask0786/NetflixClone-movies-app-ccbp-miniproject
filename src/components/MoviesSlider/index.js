@@ -42,6 +42,8 @@ class MoviesSlider extends Component {
         <div className="slick-container">
           <Slider {...settings} className="slider">
             {movies.map(each => (
+                        <Link to={`/movies/${each.id}`} key={each.id}>
+
               <li key={each.id} className="slick-item" testid="MovieCard">
                 <img
                   className="slick-movie-image"
@@ -49,6 +51,7 @@ class MoviesSlider extends Component {
                   alt={each.title}
                 />
               </li>
+                  </Link>
             ))}
           </Slider>
         </div>
